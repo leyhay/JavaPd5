@@ -63,7 +63,7 @@ System.out.println(y);
 
 */
  
-double Y = ((2(x))(x+1)(-x/2))/A
+double Y = ((2*x)*(x+1)*(-x/2))/A;
 System.out.println(Y);
 
 /*  
@@ -74,8 +74,10 @@ System.out.println(Y);
     Declare and assign values to any new variables
 */
  
-
-
+double b = 5;
+double h = 2;
+double area = (1.0/2)*b*h;
+System.out.println(area);
 
 
 
@@ -94,7 +96,11 @@ System.out.println(Y);
     2) Write the java code that will calculate how many eggs
     are left over after we filled as many baskets of 12 eggs.
 */
-
+int egg = 100;
+int basket = 12;
+int full = egg/basket;
+System.out.println(full);
+System.out.println(egg%basket);
 
 
 
