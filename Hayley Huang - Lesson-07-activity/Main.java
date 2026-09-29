@@ -62,8 +62,10 @@ System.out.println("Enter value for x2");
 double x2 = Input.readDouble();
 System.out.println("Enter value for y1");
 double y1 = Input.readDouble();
-System.out.println("Enter value for A");
-double a = Input.readDouble();
+System.out.println("Enter value for y2");
+double y2 = Input.readDouble();
+double d = Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2));
+System.out.println(d);
 
 /*  
     Challenge 6:
@@ -71,9 +73,10 @@ double a = Input.readDouble();
     
 */
 
-
-
-
+System.out.println("Enter value for degree");
+double deg = Input.readDouble();
+double g = Math.sin(deg);
+System.out.println(g);
 
 /*  
     Challenge 7:
@@ -81,8 +84,12 @@ double a = Input.readDouble();
     
 */
 
-
-
+System.out.println("Enter value for m");
+double m = Input.readDouble();
+System.out.println("Enter value for n");
+double n = Input.readDouble();
+double k = Math.pow(m,5)/Math.sqrt(n+1);
+System.out.println(k);
 
 /*  
     *** Bonus Challenge ***:
