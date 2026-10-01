@@ -15,6 +15,14 @@ class Main {
 	String v = Input.readString();
 	String words = madlib(a,n,v);
 	System.out.println(words);
+	System.out.println("Enter value for side");
+	double s = Input.readDouble();
+	double area = areaOfSqu(s);
+	System.out.println(area);
+	System.out.println("Enter value for radius");
+	double r = Input.readDouble();
+	double circ = areaOfCirc(r);
+	System.out.println(circ);
   }
 
   String madlib(String adj, String noun, String verb){
@@ -26,6 +34,10 @@ class Main {
 		double result = side * side;
 		return result;
 	}
-  
+
+	double areaOfCirc(double radius){
+		double result = Math.PI * Math.pow(radius, 2);
+		return result;
+	}
  
 }
