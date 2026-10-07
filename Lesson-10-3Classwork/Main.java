@@ -5,15 +5,17 @@ class Main {
 
   void init(){
     System.out.println("Enter amount of tickets bought");
-    int tickets = Input.readInt();
-    System.out.println(groupSavings(tickets));
+    int amount = Input.readInt();
+    double t = groupSavings(amount);
+    System.out.println(t);
 
 
     System.out.println("Enter amount of money spent");
-    double spent = Input.readDouble();
+    double money = Input.readDouble();
     System.out.println("Enter amount of beans bought");
-    int beans = Input.readInt();
-    System.out.println(groceryDiscount);
+    int cans = Input.readInt();
+    String g = groceryDiscount(money, cans);
+    System.out.println(g);
   }
 
     /*
