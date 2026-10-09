@@ -24,7 +24,7 @@ return return the following:
 
 Challenge 4:
 
-Write a function "shippingCost" that accepts a weigth 
+Write a function "shippingCost" that accepts a weight 
 in units of pounds and returns:
       - 0.00, if 10 pounds or less,
       - 5.00, if more than 10 pounds but 15 pounds 
