@@ -38,11 +38,11 @@ class Main {
 		return value;
   }
 
-  String isGrad(int grade, double credit){
+  boolean isGrad(int grade, double credit){
 	if(grade>11 && credit>=44)
-		return "Student is graduating";
+		return true;
 	else
-		return "Student is not graduating";
+		return false;
   }
 
   String BMI(double weight, double height){
@@ -68,11 +68,11 @@ class Main {
 		return 10.0+((weight-25)*0.02);
   }
 
-  String blueOrViolet(int THz){
+  boolean blueOrViolet(int THz){
 	if(THz>600&&THz<670)
-		return "true";
+		return true;
 	else if(THz>700&&THz<750)
-		return "false";
+		return false;
 	else
 		return "N/A";
   }
